@@ -10,8 +10,8 @@ echo "------> Converting MSA alignment back to unaligned FASTA file"
 ## Define variable inputs
 # Raise error if not provided
 
-NAME=${1?Error: no name given}
-
+NAME=${1?Error: No MSA file provided}
+#NAME=${1-Error: No MSA file provided}
 
 # Remove file extension from input file name
 
