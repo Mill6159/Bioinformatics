@@ -42,5 +42,5 @@ done
 trap - EXIT
 
 
-echo "------> MSA was converted and placed into file: $NAME2"
+echo "------> MSA was converted and placed into file: ${NAME2}_NoGaps.fasta"
 echo "#############################################################"
