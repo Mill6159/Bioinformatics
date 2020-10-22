@@ -1,7 +1,10 @@
 ############################################
 # Describe what it does here...
 
-#
+# I want to generate a system for taking in a 
+# ref sequence and mapping onto it the relative
+# percent conservation based on the MSA and the
+# Blossum62 matrix
 
 
 ############################################
