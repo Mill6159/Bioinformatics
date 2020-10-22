@@ -9,6 +9,7 @@ echo "------> Converting MSA alignment back to unaligned FASTA file"
 
 ## Define variable inputs
 # Raise error if not provided
+# We should return a cleaner error but this is fine for now
 
 NAME=${1?Error: No MSA file provided}
 #NAME=${1-Error: No MSA file provided}
