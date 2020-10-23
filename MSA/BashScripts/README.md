@@ -26,9 +26,7 @@ echo "Example: > MSA_Conv 'filename.fasta' "
 ```
 
 *Note the following:*
-* ```bash chmod u+x```
+* ```chmod u+x``` - grants executable permissions to the current user
 
-grants executable permissions to the current user
-
-* 
+* ```chmod a+x``` - grants executable permissions to all users
 
