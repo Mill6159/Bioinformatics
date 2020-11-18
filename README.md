@@ -9,6 +9,9 @@
 ### MSA_Conv.sh - bash script that accomplishes this
 
 * To install locally and be able to use globally (in any directory) on your local computer, use the following script:
+* Note: Written for a zsh shell
+	* If using a bash shell, edit the shebang statement (line 1) of MSA_Conv.sh
+
 
 ```bash
 sudo wget https://github.com/Mill6159/Bioinformatics/tree/master/MSA/BashScripts/MSA_Conv -P /usr/local/bin ;
